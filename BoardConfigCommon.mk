@@ -50,6 +50,14 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/asus/grouper
 TARGET_KERNEL_CONFIG := cyanogenmod_grouper_defconfig
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+
+# LIQUIFY OPTIMIZATIONS V1
+USE_O3 := true
+STRICT := true
+GRAPHITE := true
+LTO := true
 
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
