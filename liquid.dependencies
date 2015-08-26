@@ -1,0 +1,8 @@
+[
+    {
+        "remote": "gh",
+        "repository":   "t-rex600/android_kernel_asus_grouper",
+        "target_path":  "kernel/asus/grouper",
+        "branch":     "lp5.1"
+    }
+]
