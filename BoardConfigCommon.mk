@@ -60,6 +60,10 @@ USE_O3 := true
 STRICT := true
 GRAPHITE := true
 LTO := true
+TARGET_ENABLE_UKM := true
+
+# Changelog
+LIQUID_CHANGELOG := true
 
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
