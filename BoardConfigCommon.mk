@@ -51,7 +51,7 @@ BOARD_KERNEL_CMDLINE :=  androidboot.selinux=permissive
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/asus/grouper
-TARGET_KERNEL_CONFIG := cyanogenmod_grouper_defconfig
+TARGET_KERNEL_CONFIG := liquiddark_grouper_defconfig
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
