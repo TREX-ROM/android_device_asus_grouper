@@ -286,6 +286,15 @@ on boot
     write /sys/block/mmcblk0/queue/read_ahead_kb 2048
     write /sys/block/mmcblk1/queue/read_ahead_kb 2048
 
+# GPS init
+    write /sys/class/gpio/export 162
+    write /sys/class/gpio/gpio162/value 0
+    write /sys/class/gpio/gpio162/direction out
+    chown gps system /sys/class/gpio/gpio162/value
+    chmod 0664 /sys/class/gpio/gpio162/value
+    chown gps system /dev/ttyHS1
+    chmod 0660 /dev/ttyHS1
+
 # Load WiFi driver
 
 # BB mapping symbolic name to the logging ttyACM port
