@@ -46,6 +46,9 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 
 BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 
+# Changelog
+LIQUID_CHANGELOG := true
+
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 WPA_SUPPLICANT_VERSION      := VER_0_8_X
