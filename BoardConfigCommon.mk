@@ -46,6 +46,10 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 
 BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 
+# Kernel
+TARGET_KERNEL_SOURCE := kernel/asus/grouper
+TARGET_KERNEL_CONFIG := liquiddark_grouper_defconfig
+
 # Changelog
 LIQUID_CHANGELOG := true
 
