@@ -51,6 +51,9 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 # Disable journaling on system.img to save space.
 BOARD_SYSTEMIMAGE_JOURNAL_SIZE := 0
 
+# Changelog
+LIQUID_CHANGELOG := true
+
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 WPA_SUPPLICANT_VERSION      := VER_0_8_X
