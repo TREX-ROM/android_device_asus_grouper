@@ -14,6 +14,13 @@
 # limitations under the License.
 #
 
+
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+  LOCAL_KERNEL := kernel/asus/grouper
+else
+  LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+
 PRODUCT_AAPT_CONFIG := normal large
 PRODUCT_AAPT_PREF_CONFIG := tvdpi
 # A list of dpis to select prebuilt apk, in precedence order.
