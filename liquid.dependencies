@@ -1,6 +1,12 @@
 [
     {
       "remote":      "gh",
+      "repository":  "TREX-ROM/android_kernel_asus_grouper",
+      "target_path": "kernel/asus/grouper",
+      "revision":    "mm6.0aosp"
+    },
+    {
+      "remote":      "gh",
       "repository":  "Team-OctOS/proprietary_vendor_asus",
       "target_path": "vendor/asus",
       "revision":    "to-6.0"
