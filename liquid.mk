@@ -25,15 +25,10 @@ $(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 # Inherit AOSP device configuration
 $(call inherit-product, device/asus/grouper/full_grouper.mk)
 
-# Copy specific prebuilt files
-PRODUCT_COPY_FILES +=  \
-    vendor/liquid/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
-    vendor/liquid/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
-
-## Device identifier. This must come after all inclusions
+# Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := grouper
 PRODUCT_NAME := liquid_grouper
-PRODUCT_BRAND := Google
+PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := asus
 
