@@ -6,39 +6,39 @@
       "revision":    "mm6.0"
     },
     {
-      "remote":      "gh",
-      "repository":  "Team-OctOS/proprietary_vendor_asus",
+      "remote":      "tm",
+      "repository":  "proprietary_vendor_asus",
       "target_path": "vendor/asus",
-      "revision":    "to-6.0"
+      "revision":    "cm-13.0"
     },
     {
-      "remote":      "gh",
-      "repository":  "Team-OctOS/proprietary_vendor_broadcom",
+      "remote":      "tm",
+      "repository":  "proprietary_vendor_broadcom",
       "target_path": "vendor/broadcom",
-      "revision":    "to-6.0"
+      "revision":    "cm-13.0"
     },
     {
-      "remote":      "gh",
-      "repository":  "Team-OctOS/proprietary_vendor_elan",
+      "remote":      "tm",
+      "repository":  "proprietary_vendor_elan",
       "target_path": "vendor/elan",
-      "revision":    "to-6.0"
+      "revision":    "cm-13.0"
     },
     {
-      "remote":      "gh",
-      "repository":  "Team-OctOS/proprietary_vendor_invensense",
+      "remote":      "tm",
+      "repository":  "proprietary_vendor_invensense",
       "target_path": "vendor/invensense",
-      "revision":    "to-6.0"
+      "revision":    "cm-13.0"
     },
     {
-      "remote":      "gh",
-      "repository":  "Team-OctOS/proprietary_vendor_nvidia",
+      "remote":      "tm",
+      "repository":  "proprietary_vendor_nvidia",
       "target_path": "vendor/nvidia",
-      "revision":    "to-6.0"
+      "revision":    "cm-13.0"
     },
     {
-      "remote":      "gh",
-      "repository":  "Team-OctOS/proprietary_vendor_nxp",
+      "remote":      "tm",
+      "repository":  "proprietary_vendor_nxp",
       "target_path": "vendor/nxp",
-      "revision":    "to-6.0"
+      "revision":    "cm-13.0"
     }
 ]
