@@ -35,6 +35,12 @@
       "target_path": "vendor/nvidia",
       "revision":    "to-6.0"
     },
+    {    
+     "remote":      "gh",
+     "repository":  "Team-OctOS/proprietary_vendor_widevine",
+     "target_path": "vendor/widevine",
+     "revision":    "oct-mm"
+    },
     {
       "remote":      "gh",
       "repository":  "Team-OctOS/proprietary_vendor_nxp",
