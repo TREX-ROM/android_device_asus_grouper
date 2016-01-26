@@ -86,6 +86,11 @@ ifneq ($(HAVE_NVIDIA_PROP_SRC),false)
 -include vendor/nvidia/build/definitions.mk
 endif
 
+# CMHW
+BOARD_USES_CYANOGEN_HARDWARE := true
+BOARD_HARDWARE_CLASS := \
+    hardware/cyanogen/cmhw
+
 # Avoid the generation of ldrcc instructions
 NEED_WORKAROUND_CORTEX_A9_745320 := true
 

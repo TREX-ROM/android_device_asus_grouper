@@ -83,6 +83,9 @@ on boot
 # backlight
     chown system system /sys/class/backlight/pwm-backlight/brightness
 
+# MDSS PCC RGB colour adjust interface
+    chown system system /sys/devices/virtual/graphics/fb0/rgb
+
 # didim
     chown system system /sys/class/graphics/fb0/device/smartdimmer/enable
     chown system system /sys/class/graphics/fb0/device/smartdimmer/aggressiveness
