@@ -21,7 +21,7 @@
       "remote":      "gh",
       "repository":  "Team-OctOS/proprietary_vendor_elan",
       "target_path": "vendor/elan",
-      "revision":    "to-6.0"
+      "revision":    "oct-mm"
     },
     {
       "remote":      "gh",
