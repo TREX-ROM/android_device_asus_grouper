@@ -1,0 +1,8 @@
+[
+  {
+   "remote":      "gh",
+   "repository":  "GtrCraft/cyanogenmod_kernel_grouper",
+   "target_path": "kernel/asus/grouper",
+   "branch":      "cm-13.0"0"
+  }
+]

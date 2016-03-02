@@ -91,6 +91,9 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=$(TARGET_BOOTLOADER_BOARD_NAME)
 TARGET_KERNEL_CONFIG := tegra3_android_defconfig
 TARGET_KERNEL_SOURCE := kernel/asus/grouper
 
+# Changelog
+LIQUID_CHANGELOG := true
+
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 
 BOARD_SEPOLICY_DIRS += device/asus/grouper/sepolicy
