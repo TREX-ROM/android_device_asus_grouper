@@ -19,12 +19,6 @@
   },
   {
    "remote":      "gh",
-   "repository":  "Grouper-AOSP/proprietary_vendor_elan",
-   "target_path": "vendor/elan",
-   "branch":      "aosp-6.0"
-  },
-  {
-   "remote":      "gh",
    "repository":  "Grouper-AOSP/proprietary_vendor_invensense",
    "target_path": "vendor/invensense",
    "branch":      "aosp-6.0"
