@@ -101,7 +101,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     nfc.grouper \
     libnfc\
-    NfcNxp \
+    Nfc \
     Tag
 
 # Filesystem management tools
