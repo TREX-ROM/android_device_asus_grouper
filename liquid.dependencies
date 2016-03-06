@@ -1,9 +1,9 @@
 [
   {
    "remote":      "gh",
-   "repository":  "GtrCraft/cyanogenmod_kernel_grouper",
+   "repository":  "TREX-ROM/android_kernel_asus_grouper",
    "target_path": "kernel/asus/grouper",
-   "branch":      "cm-13.0"
+   "revision":    "mm6.0"
   },
   {
    "remote":      "gh",
