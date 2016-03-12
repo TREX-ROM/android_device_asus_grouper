@@ -111,6 +111,10 @@ PRODUCT_PACKAGES += \
     e2fsck \
     setup_fs
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 PRODUCT_CHARACTERISTICS := tablet,nosdcard
 
 # we have enough storage space to hold precise GC data
