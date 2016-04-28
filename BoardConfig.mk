@@ -42,7 +42,7 @@ TARGET_RECOVERY_FSTAB = device/asus/grouper/fstab.grouper
 
 #BOARD_WIDEVINE_OEMCRYPTO_LEVEL := 1
 
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-6.0/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
 
 TARGET_DISABLE_ARM_PIE := true
 TARGET_GLOBAL_CFLAGS += -mtune=cortex-a9 -mfpu=neon -mfloat-abi=hardfp -gtoggle -s -DNDEBUG -march=armv7-a -mthumb -O2 -funroll-loops -mimplicit-it=always -mno-warn-deprecated -mauto-it --disable-docs -mtls-dialect=gnu2 --param l1-cache-size=32 --param l1-cache-line-size=32 --param l2-cache-size=1024 --param simultaneous-prefetches=6 --param prefetch-latency=400 -mvectorize-with-neon-quad
