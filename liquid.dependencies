@@ -6,10 +6,10 @@
    "revision":    "m6.0.1"
   },
   {
-   "remote":      "gh",
-   "repository":  "Grouper-AOSP/proprietary_vendor_asus",
-   "target_path": "vendor/asus",
-   "branch":      "aosp-6.0"
+    "remote":      "tm",
+    "repository":  "proprietary_vendor_asus",
+    "target_path": "vendor/asus",
+    "branch":      "cm-13.0"
   },
   {
    "remote":      "gh",
