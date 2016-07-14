@@ -1,9 +1,9 @@
 [
   {
-   "remote":      "gh",  
-   "repository":  "AICP/kernel_asus_grouper",
+   "remote":      "gh",
+   "repository":  "TREX-ROM/the-reaper",
    "target_path": "kernel/asus/grouper",
-   "branch":      "mm6.0"
+   "revision":    "m6.0.1"
   },
   {
    "remote":      "tm",
